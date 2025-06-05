@@ -11,7 +11,7 @@ const RecordingCard = ({
   error,
 }) => {
   return (
-    <div className="mx-auto max-w-screen-xl overflow-hidden rounded-2xl bg-white shadow-xl">
+    <div className="mx-auto max-w-screen-xl overflow-hidden rounded-2xl bg-white">
       <div className=" p-6">
         <h2 className="mb-6 text-2xl font-semibold text-gray-800">
           Record Your Voice
