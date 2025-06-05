@@ -1,6 +1,7 @@
 # Sentiment Analysis App
 
-![App Screenshot](https://i.imgur.com/JQ8WzZY.png)  
+![Sentiment Analysis UI](https://github.com/mariyasf/sentiment-analysis-app/raw/main/public/images/SA1.png)
+
 *A modern AI-powered sentiment analysis tool*
 
 ## 🌟 Features
@@ -16,11 +17,7 @@
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
-
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/sentiment-analysis-app.git](https://github.com/mariyasf/sentiment-analysis-app.git)
+   git clone https://github.com/yourusername/sentiment-analysis-app.git
