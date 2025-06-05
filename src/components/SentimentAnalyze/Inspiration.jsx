@@ -35,7 +35,7 @@ const Inspiration = ({ setTextInput }) => {
   ];
 
   return (
-    <div className="bg-gray-100  py-24 sm:p-8 ">
+    <div className="bg-gray-100  py-24 p-6 sm:p-8 ">
       <div className=" mx-auto lg:max-w-screen-xl">
         <h3 className="mb-4 text-lg font-medium text-gray-800">
           Need inspiration? Try these examples:

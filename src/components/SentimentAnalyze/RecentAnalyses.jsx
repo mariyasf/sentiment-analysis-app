@@ -3,7 +3,7 @@ import React from "react";
 const RecentAnalyses = ({ recentAnalyses, setTextInput, sentimentColors }) => {
   return (
     <div
-      className="mb-8
+      className="my-8
     overflow-hidden rounded-2xl
     bg-white lg:mx-auto lg:max-w-screen-xl  "
     >

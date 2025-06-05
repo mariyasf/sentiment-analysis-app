@@ -25,14 +25,19 @@ const SentimentAnalyzer = () => {
     setError(null);
 
     try {
-      const pipe = await pipeline("sentiment-analysis");
+      const pipe = await pipeline("sentiment-analysis", {
+        model: "distilbert-base-uncased-finetuned-sst-2-english",
+      });
       const result = await pipe(textInput);
       const analysis = result[0];
       setAnalysisResult(analysis);
 
       // Add to recent analyses (limit to 5)
       setRecentAnalyses((prev) => [
-        { text: textInput, result: analysis },
+        {
+          text: textInput,
+          result: analysis,
+        },
         ...prev.slice(0, 4),
       ]);
     } catch (err) {
