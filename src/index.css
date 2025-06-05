@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0 box-border p-0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+  html,
+  body,
+  #root {
+    @apply h-screen;
+  }
+}
+@layer utilities {
+  .mod {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

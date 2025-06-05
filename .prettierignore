@@ -1,0 +1,4 @@
+.eslintrc.cjs
+*.json
+README.md
+*.config.js
