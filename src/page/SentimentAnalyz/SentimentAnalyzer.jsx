@@ -4,6 +4,7 @@ import Inspiration from "../../components/SentimentAnalyze/Inspiration";
 import AnalysisCard from "../../components/SentimentAnalyze/AnalysisCard";
 import SentimentResult from "../../components/SentimentAnalyze/SentimentResult";
 import RecentAnalyses from "../../components/SentimentAnalyze/RecentAnalyses";
+import Header from "../../components/Shared/Header";
 
 env.allowLocalModels = false;
 env.useBrowserCache = false;
@@ -89,6 +90,13 @@ const SentimentAnalyzer = () => {
 
   return (
     <div className="">
+      <div className="bg-white shadow-sm">
+        <Header
+          title="Sentiment Analyzer"
+          subtitle="Analyze the sentiment of your text using AI"
+        />
+      </div>
+
       <div className="flex flex-col  gap-8 p-4 lg:flex-row lg:p-8">
         <div className="flex-1">
           <AnalysisCard

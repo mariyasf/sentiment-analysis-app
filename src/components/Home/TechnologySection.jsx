@@ -11,9 +11,14 @@ const TechnologySection = () => {
             </h2>
             <p className="mb-4 text-gray-600">
               Our sentiment analyzer leverages the{" "}
-              <span className="font-semibold text-blue-600">
+              <a
+                href="https://www.npmjs.com/package/@xenova/transformers"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-blue-600 hover:underline"
+              >
                 @xenova/transformers
-              </span>{" "}
+              </a>{" "}
               library, which implements a distilled version of Google's BERT
               model specifically optimized for browser-based execution. This
               allows for real-time sentiment analysis without compromising
