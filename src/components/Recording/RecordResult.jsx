@@ -5,11 +5,10 @@ const RecordResult = ({
   currentEmotion,
   colors,
   emotionColors,
-   
 }) => {
   return (
     <div
-      className={`mb-8 overflow-hidden rounded-2xl border-2 ${colors.border} ${colors.bg}  `}
+      className={`my-8 overflow-hidden rounded-2xl border-2 ${colors.border} ${colors.bg}  mx-auto max-w-screen-xl`}
     >
       <div className="p-6 sm:p-8">
         <div className="mb-6 flex items-center justify-between">

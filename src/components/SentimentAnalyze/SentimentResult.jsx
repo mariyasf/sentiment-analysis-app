@@ -1,7 +1,7 @@
 import React from "react";
 
 const SentimentResult = (
-  { analysisResult, colors, textInput } = {}, // Destructure props with default values
+  { analysisResult, colors }  , // Destructure props with default values
 ) => {
   return (
     <div

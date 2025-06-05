@@ -26,9 +26,7 @@ const SentimentAnalyzer = () => {
     setError(null);
 
     try {
-      const pipe = await pipeline("sentiment-analysis", {
-        model: "distilbert-base-uncased-finetuned-sst-2-english",
-      });
+      const pipe = await pipeline("sentiment-analysis");
       const result = await pipe(textInput);
       const analysis = result[0];
       setAnalysisResult(analysis);
@@ -113,11 +111,7 @@ const SentimentAnalyzer = () => {
 
         {analysisResult && (
           <div className="flex-1">
-            <SentimentResult
-              analysisResult={analysisResult}
-              colors={colors}
-              textInput={textInput}
-            />
+            <SentimentResult analysisResult={analysisResult} colors={colors} />
           </div>
         )}
       </div>
